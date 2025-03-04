@@ -6,15 +6,14 @@ import QuickControls from '@/components/QuickControls';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background p-4 md:p-8">
+    <div className="min-h-screen bg-background p-4 md:p-8 overflow-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
       <div className="mx-auto max-w-7xl space-y-8">
         <Hero />
         <Scenes />
         <QuickControls />
         <div className="flex items-center justify-between border-t border-accent/50 pt-4">
           <div className="flex items-center gap-2">
-            <span className="font-semibold text-primary">Smart</span>
-            <span className="text-red-500">Home</span>
+            <p className="font-semibold text-primary">Smart<span className="text-red-500">Home</span></p>
           </div>
           <div className="flex items-center gap-4">
             <button className="text-gray-400 hover:text-white">

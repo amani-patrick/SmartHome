@@ -4,6 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
+scrollbar-width: none;
+
+* {
+  -ms-overflow-style: none;  
+}
 
 .logo {
   height: 6em;

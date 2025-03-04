@@ -11,17 +11,17 @@ const scenes = [
   {
     title: 'Sleep Mode',
     icon: <Moon className="h-6 w-6" />,
-    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80',
+    image: '/sleep-mode.jpeg',
   },
   {
     title: 'Morning Routine',
     icon: <Sun className="h-6 w-6" />,
-    image: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=80',
+    image: '/morning-routine.jpeg',
   },
   {
     title: 'Work Mode',
     icon: <Laptop className="h-6 w-6" />,
-    image: 'https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=800&q=80',
+    image: '/work-mode.jpeg',
   },
 ];
 
