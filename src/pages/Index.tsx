@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Hero from '@/components/Hero';
 import Scenes from '@/components/Scenes';
@@ -6,7 +5,7 @@ import QuickControls from '@/components/QuickControls';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background p-4 md:p-8 overflow-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+    <div className="min-h-screen bg-background p-4 md:p-8 overflow-y-auto scrollbar-hide">
       <div className="mx-auto max-w-7xl space-y-8">
         <Hero />
         <Scenes />
@@ -32,4 +31,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Index; 
